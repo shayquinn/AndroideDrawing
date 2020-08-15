@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/saveFrag"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/WHITE"
+    >
+    <ImageView
+        android:id="@+id/sim"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        />
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/efn"
+        android:inputType="text"
+        android:imeOptions="actionSend" />
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/r1"
+            android:checked="true"/>
+        <RadioButton android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/r2" />
+    </RadioGroup>
+    <Button
+        android:text="Save"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/save"
+        />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CanvasMenuTest</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+
+    <string name="t1">Avtivity 1</string>
+    <string name="t2">Avtivity 2</string>
+    <string name="t3">Avtivity 3</string>
+
+    <string name="a1b1">Forward</string>
+    <string name="a2b1">Forward</string>
+    <string name="a2b2">Back</string>
+    <string name="a2b3">Pick</string>
+    <string name="a3b1">Back</string>
+    <string name="a3b2">Canvas</string>
+
+    <string name="openDrawer">Open Drawer </string>
+    <string name="closeDrawer">Close Drawer </string>
+
+    <string name="efn">Enter a file name</string>
+    <string name="r1">JPG</string>
+    <string name="r2">PNG</string>
+
+
+    </resources>
